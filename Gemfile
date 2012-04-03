@@ -17,3 +17,5 @@ gem 'safely'
 # For more information on bundler, please visit http://gembundler.com
 gem 'capistrano'
 gem 'capistrano-ext'
+
+gem 'settingslogic'

@@ -1,0 +1,13 @@
+# config/application.yml
+defaults: &defaults
+  imap:
+    server: imap.gmail.com
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

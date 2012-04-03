@@ -24,7 +24,7 @@ set :git_enable_submodules, 1
 set :use_sudo, false
 
 # See `cap -e deploy:copy_configs`
-set :config_files, %w{}
+set :config_files, %w{appconfig.yml}
 
 # List any work directories here that you need persisted between
 # deployments. They are created in 'deploy_to'/shared and symlinked

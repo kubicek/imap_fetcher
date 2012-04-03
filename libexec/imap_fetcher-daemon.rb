@@ -14,5 +14,6 @@ end
 # Sample loop to show process
 loop do
   DaemonKit.logger.info "I'm running"
+  DaemonKit.logger.info "Querying #{Settings.imap.server}"
   sleep 60
 end
